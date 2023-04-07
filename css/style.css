@@ -1,0 +1,120 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.landing_section{
+	background-color: pink;
+}
+
+.header_section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: pink;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.navlink_section ul{
+	display: flex;
+	list-style: none;
+	gap: 50px;
+}
+
+.navlink_section a:hover{
+	background-color: #C262AF;
+	padding:10px;
+	border-radius: 5px;
+	font-weight: bolder;
+	color: white;
+}
+
+.navlink_section a{
+	text-decoration: none;
+}
+
+.icon_section a{
+	font-weight: bolder;
+	text-decoration: none;
+	background-color: #C262AF;
+	padding: 10px 20px;
+	border-radius: 5px;
+	color: white;
+	margin-right: 10px;
+}
+
+.header_section .logo_section img{
+	width: 140px;
+	margin-left: 10px;
+}
+
+/* Second Task */
+
+.main_container2{
+	background-color: pink;
+} 
+
+.sub_container{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 90%;
+}
+
+.image_container{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+.image_container img{
+	height: 590px;
+	width: 467px;
+}
+
+.text_container{
+	width: 50%;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+}
+
+.content{
+	width: 80%;
+	
+}
+
+.text_container .line{
+	width: 150px;
+	height: 8px;
+	background-color: #59437A;
+}
+
+.text_container h1{  
+	width: 40%;
+	font-size: 80px;
+	font-family: 'Roboto', sans-serif;
+	color: #59437A;
+}
+.text_container span{
+	display: block;
+	color: black;
+}
+.text_container .button{
+	text-align: center;
+	width:160px;
+	display: block;
+	margin-top: 15px;
+	text-decoration: none;
+	color: white;
+	background-color:#C262AF;
+	font-size: 36px;
+	padding: 5px 15px;
+	border-radius: 5px;
+	
+}
+
+
+ 
